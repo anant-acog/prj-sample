@@ -1,0 +1,20 @@
+This repository is sample repository, of how naming and everything should be in a project. belwo are the instructions
+
+
+Assume that the project name is “prj”. If there no project, then internal
+Docker containers will be called atk-prj-*
+then run "docker build -t atk-prj-sample:latest ."
+Github Projects called prj-* – the github projects are named like that.
+Each github project should have a README.md.x
+The heading of the README.md should be as follows:
+—-
+project_name: ATK System tools
+short_description: System tools used for maintaining the servers
+tags: [scripts, internal]
+category: tech
+status: active
+long_description: >
+  These tools are used to set up the machines, add users, and automate maintenance.
+  There may be hardcoded details in here.
+—-
+
